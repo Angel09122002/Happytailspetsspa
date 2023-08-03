@@ -3,9 +3,14 @@ import React from 'react'
 function Navbar() {
   return (
     <div>
-      <h1>hello word
+      <ul>
+        <li className='home-link'>home</li>
+        <li className='aboutUs-link'>About us</li>
+        <li className='services'>Pet Services</li>
         
-      </h1>
+      </ul>
+        
+      
     </div>
   )
 }
