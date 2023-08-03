@@ -1,15 +1,41 @@
-import React from 'react'
+import React, {useState} from 'react'
+import "./navbar.css"
+import {FaBars, FaTimes} from "react-icons"
+import {link} from "react-scroll"
+const Navbar = () =>{
 
-function Navbar() {
+  const [nav, setNav] = useState(false)
+
+  const links =[
+    {
+      id: 1,
+      link: "home",
+    },
+    {
+      id: 1,
+      link: "About us",
+    },
+    {
+      id: 1,
+      link: "Services",
+    },
+    {
+      id: 1,
+      link: "Contact us",
+    },
+
+  ]
   return (
-    <div>
-      <ul>
-        <li className='home-link'>home</li>
-        <li className='aboutUs-link'>About us</li>
-        <li className='services'>Pet Services</li>
-        
-      </ul>
-        
+    <div className='navBar-container'>
+        <div>
+          <h1 className='Happytails'>HappyTailsPetsSpa</h1>
+        </div>
+
+        <ul className='navBar-links'>
+          {links.map(({id, link}) => (
+            <li key={id} className='links'></li>
+          ))}
+        </ul>
       
     </div>
   )
