@@ -1,44 +1,81 @@
-import React, {useState} from 'react'
-import "./navbar.css"
-import {FaBars, FaTimes} from "react-icons"
-import {link} from "react-scroll"
-const Navbar = () =>{
+import React, { useState } from "react";
+import "../../styles/navbar.css"
+import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
+import logonavbar from "../../assets/logonavbar.png";
 
-  const [nav, setNav] = useState(false)
+const NavBar = () => {
+  const [nav, setNav] = useState(false);
 
-  const links =[
+  const links = [
     {
       id: 1,
-      link: "home",
+      link: "Home",
     },
     {
-      id: 1,
+      id: 2,
       link: "About us",
     },
     {
-      id: 1,
+      id: 3,
       link: "Services",
     },
     {
-      id: 1,
-      link: "Contact us",
+      id: 4,
+      link: "Contact",
     },
+  ];
 
-  ]
   return (
-    <div className='navBar-container'>
-        <div>
-          <h1 className='Happytails'>HappyTailsPetsSpa</h1>
-        </div>
+    <nav className="top-bar">
+      <a id="img" href="/">
+        <img  src={logonavbar} alt="Logo-navbar" width={150} style={{ width: "150px", height: "auto" }} />
+      </a>
+      <a href="/" className="title-navbar">HappyTailsPetsSpa</a>
 
-        <ul className='navBar-links'>
-          {links.map(({id, link}) => (
-            <li key={id} className='links'></li>
+      <div>
+        <ul className="navbar">
+          {links.map(({ id, link }) => (
+            <li
+              key={id}
+              className="burgericon1"
+            >
+              <Link to={link} smooth duration={500}>
+                {link}
+              </Link>
+            </li>
           ))}
         </ul>
-      
-    </div>
-  )
-}
+      </div>
 
-export default Navbar
+      <div
+        onClick={() => setNav(!nav)}
+        className="onlclick"
+      >
+        {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
+      </div>
+
+      {nav && (
+        <div className="burger">
+          {links.map(({ id, link }) => (
+            <li
+              key={id}
+              className="openburger"
+            >
+              <Link
+                onClick={() => setNav(!nav)}
+                to={link}
+                smooth
+                duration={400}
+              >
+                {link}
+              </Link>
+            </li>
+          ))}
+        </div>
+      )}
+    </nav>
+  );
+};
+
+export default NavBar;
