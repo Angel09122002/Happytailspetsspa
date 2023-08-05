@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../../styles/navbar.css";
 import logonavbar from "../../assets/logonavbar.png";
+import "../../styles/button.css"
 import { Link } from "react-scroll";
 import { Button } from "../button/Button";
 
