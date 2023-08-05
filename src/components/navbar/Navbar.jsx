@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../../styles/navbar.css";
 import logonavbar from "../../assets/logonavbar.png";
+import menuactive from "../../assets/menuactive.png"
 import "../../styles/button.css";
 import { Link } from "react-scroll";
 import { Button } from "../button/Button";
@@ -39,7 +40,6 @@ const NavBar = () => {
         <img
           src={logonavbar}
           alt="Logo-navbar"
-          width={150}
           style={{ width: "150px", height: "auto" }}
         />
 
@@ -52,6 +52,12 @@ const NavBar = () => {
           <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <img
+            id="img-menuactive"
+            src={menuactive}
+            alt="Logo-navbar"
+            style={{ width: "690px", height: "auto" }}
+          />
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={closeMobilemenu}>
               Home
