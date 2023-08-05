@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../../styles/navbar.css";
 import logonavbar from "../../assets/logonavbar.png";
-import "../../styles/button.css"
+import "../../styles/button.css";
 import { Link } from "react-scroll";
 import { Button } from "../button/Button";
 
@@ -36,9 +36,16 @@ const NavBar = () => {
   return (
     <>
       <nav className="navbar">
+        <img
+          src={logonavbar}
+          alt="Logo-navbar"
+          width={150}
+          style={{ width: "150px", height: "auto" }}
+        />
+
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobilemenu}>
-            Happy<i className="fas fa-paw"></i>
+            <p>Happy Tails Pets Spa</p>
           </Link>
         </div>
         <div className="menu-icon" onClick={handleClick}>
@@ -78,11 +85,7 @@ const NavBar = () => {
             </Link>
           </li>
         </ul>
-        {button && (
-          <Button buttonStyle="btn--outline">
-            Contact us
-          </Button>
-        )}
+        {button && <Button buttonStyle="btn--outline">Contact us</Button>}
       </nav>
     </>
   );

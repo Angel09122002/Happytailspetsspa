@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-scroll";
-
+import "../../styles/button.css"
 
 const STYLES = ['btn--primary', 'btn--outline'];
 
@@ -24,3 +24,4 @@ export const Button = ({children, type, onclick, buttonStyle, buttonSize}) => {
     </Link>
    ); 
 };
+export default Button;
