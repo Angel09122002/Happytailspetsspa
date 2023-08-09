@@ -6,7 +6,8 @@ import Home from "./components/home/Home";
 function App() {
   return (
     <React.Fragment>
-          <Navbar /> 
+          <Navbar />
+          <Home/> 
     </React.Fragment>
   );
 }

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.home-container img {
+  object-fit: cover;
+  height: 550px;
+  width: 100%;
+}
+.home-wrapper button {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.Text-homeContainer{
+    position: absolute;
+  bottom: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  color: rgb(223, 21, 21);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
