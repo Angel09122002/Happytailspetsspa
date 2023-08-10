@@ -18,14 +18,18 @@
   border-radius: 5px;
   cursor: pointer;
 }
-.Text-homeContainer{
-    position: absolute;
-  bottom: 70%;
+.Text-homeContainer {
+ white-space: nowrap;
+font-family: sans-serif;
+  position: absolute;
+  bottom: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px 20px;
-  color: rgb(223, 21, 21);
+  color: rgb(255, 255, 255);
   border: none;
   border-radius: 5px;
-  cursor: pointer;
+  cursor: text;
+  font-size: 19;
+  font: weight bold;;
 }
