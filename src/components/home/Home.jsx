@@ -1,8 +1,6 @@
-import React from 'react'
-import "../../styles/home.css"
-import bathhome from "../../assets/bathhome.jpg"
-import scissors from "../../assets/scissors.png"
-import { Button } from '../button/Button'
+import React from "react";
+import "../../styles/home.css";
+import { Button } from "../button/Button";
 
 
 
@@ -16,19 +14,18 @@ const Home = () => {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
+          href="https://www.tu-enlace-aqui.com"
         >
-          Contact Your Grommer
+          Contact Your Groomer
         </Button>
-        <Button
-          className="btns"
-          buttonStyle="btn--primary"
-          buttonSize="btn--large"
-        >
-          See our magic  <i class="fa-brands fa-instagram"></i>
-        </Button>
+        <button className="btn-instagram">
+          <a href="https://www.instagram.com/happytailspetsspa/" target="blanck">
+           Check our magic
+          </a>
+        </button>
       </div>
     </div>
   );
-}
+};
 
-export default Home
+export default Home;

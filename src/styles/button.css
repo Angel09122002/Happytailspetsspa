@@ -8,7 +8,6 @@
   outline: none;
   border: none;
   cursor: pointer;
-  
 }
 
 .btn--primary {
@@ -26,11 +25,11 @@
   position: relative;
   right: 55px;
   white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
-.btn--outline:hover{
-  background-color: #fff;
+.btn--outline:hover {
+  background-color:#13badf;
   color: #242424;
 }
 
@@ -47,7 +46,7 @@
 .btn--large:hover,
 .btn--medium:hover {
   transition: all 0.3s ease-out;
-  background: #fff;
+  background: #13badf;
   color: #242424;
   transition: 250ms;
 }
