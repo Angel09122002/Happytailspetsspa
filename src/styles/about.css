@@ -14,12 +14,12 @@
 
 .section-wrapper {
   margin-bottom: 20px;
-  
+  font-size: 30px;
 }
 
 .section-wrapper-subtitle {
   margin-bottom: 40px;
-  
+  font-size: 24px;
   
 }
 
@@ -32,6 +32,8 @@
 
 .brickOne-text,
 .brickTwo-text {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   padding: 20px;
   text-align: justify;
   flex-basis: calc(50% - 20px);
@@ -57,7 +59,8 @@ padding: 20px
   .brickTwo-text {
     flex-basis: auto;
     width: 100%;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 20px;
+     word-spacing: -2px;
   }
 }

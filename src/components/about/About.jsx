@@ -15,7 +15,7 @@ const About = () => {
           </div>
           <div className="about-wrap">
             <div className="brickOne-text">
-              <h3>About Us: Experts in Mobile Pet Grooming</h3>
+              <h3>About Us: Experts in Mobile Pet Grooming.</h3>
               <p>
                 Welcome to Happy Tails Pets Spa, where the enchantment of mobile
                 pet care comes to life. With extensive experience catering to
@@ -25,9 +25,7 @@ const About = () => {
                 approach guarantees that every pet, whether playful or timid,
                 receives the care and affection they deserve.
               </p>
-            </div>
-            <div className="brickTwo-text">
-              <h3>Commitment to Well-being and Quality</h3>
+              <h3>Commitment to Well-being and Quality.</h3>
               <p>
                 Our passion for pets drives everything we do. Our unwavering
                 commitment to quality is reflected in every aspect of our
@@ -41,6 +39,7 @@ const About = () => {
                 celebrates their unique beauty and vitality.
               </p>
             </div>
+           
           </div>
         </section>
       </div>
