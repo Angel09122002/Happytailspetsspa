@@ -130,13 +130,13 @@
     padding: 14px 20px;
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
-    position: relative;
+    
     display: flex;
     justify-content: center;
-    bottom: 270%;
+    bottom: 570%;
     right: 30px;
   }
-    @media screen and (max-width: 390px) { /* Ancho de pantalla del iPhone 12 Pro Max */
+    @media screen and (max-width: 390px) { 
   .nav-links {
     height: auto; 
     padding: 10px 15px;
@@ -196,12 +196,12 @@
     position: relative;
     display: flex;
     justify-content: center;
-    bottom: 260%;
+    bottom: 500%;
     right: 30px;
   }
   @media screen and (max-width: 390px){
       .nav-links-mobile{
-     right: 30px;
+      right: 30px;
       margin: 1rem auto;
       padding: 10px 15px;
       height: auto;
