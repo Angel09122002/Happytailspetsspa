@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./components/home/Home";
 import Services from "./components/services/Services";
 import Cards from "./components/services/Cards";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Home/> 
           <About/>
           <Cards/>
+          <Contact/>
     </React.Fragment>
   );
 }

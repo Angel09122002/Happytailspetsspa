@@ -1,0 +1,93 @@
+/* contact.css */
+
+.footer-container {
+  background-color: #1b1919;
+  padding: 30px;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fafafa;
+  margin: 0 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-links a:hover {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #0080ff, #2c6377 50%, #e4e4e4 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  padding: 5px 0;
+  display: inline-block;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-iconPhone,
+.footer-iconInstagram {
+  font-size: 28px;
+  margin-right: 10px;
+  position: relative;
+  color: white;
+}
+
+.footer-phone,
+.footer-phoneMobile {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-email i {
+  color: white;
+  position: relative;
+  left: 5px;
+}
+
+.footer-email a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-instagram {
+  font-size: 25px;
+  font-weight: 700;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-instagram a:hover .footer-iconInstagram {
+  background-image: linear-gradient(to right, #0080ff, #2c6377 50%, #e4e4e4 50%);
+  background-size: 200% 100%;
+  background-position: -100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .contact-links {
+    flex-direction: column;
+  }
+
+  .contact-links a {
+    margin: 10px 0;
+  }
+}
