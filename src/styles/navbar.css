@@ -87,6 +87,25 @@
   position: relative;
   bottom: 200px;
 }
+     @media screen and (max-height:667px) { 
+  .nav-links {
+       margin: 2rem auto;
+    border-radius: 4px;
+    width: 80%;
+    height: 30%;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 14px 20px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-out;
+    justify-content: center;
+    right: 10%;
+    bottom: 20px;
+    z-index: 1000;
+   
+    
+  }
+}
 
 @media screen and (max-width: 768px) {
   .NavbarItems {
@@ -132,6 +151,8 @@
     right: 10%;
     z-index: 1000;
   } 
+
+
 
     @media screen and (max-width: 390px) { 
   .nav-links {
