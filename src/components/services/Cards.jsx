@@ -20,21 +20,38 @@ function Cards() {
               label="Professional stylists"
               path="/services"
             />
-          </ul>
-          <ul className="cards__items">
             <Services
               src="images/personalizacion.jpg"
               text="We create custom looks for every celebration, ensuring your dogs shine with unique styles."
               label="Unique styles"
               path="/services"
             />
+          </ul>
+          <ul className="cards__items">
             <Services
-              src="images/premiumWash.jpg"
+              src="images/elegancia.jpg"
               text=""
               label=""
               path="/service"
             />
-            
+            <Services
+              src="images/elegancia.jpg"
+              text=""
+              label=""
+              path="/service"
+            />
+            <Services
+              src="images/elegancia.jpg"
+              text=""
+              label=""
+              path="/service"
+            />
+            <Services
+              src="images/elegancia.jpg"
+              text=""
+              label=""
+              path="/service"
+            />
           </ul>
         </div>
       </div>

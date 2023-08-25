@@ -14,6 +14,8 @@
 
 .contact-links {
   display: flex;
+  right: 40px;
+  position: relative;
   justify-content: center;
   align-items: center;
 }
@@ -31,7 +33,12 @@
   color: white;
   font-size: 25px;
   font-weight: 700;
-  background-image: linear-gradient(to right, #0080ff, #2c6377 50%, #e4e4e4 50%);
+  background-image: linear-gradient(
+    to right,
+    #0080ff,
+    #2c6377 50%,
+    #e4e4e4 50%
+  );
   background-size: 200% 100%;
   background-position: -100%;
   padding: 5px 0;
@@ -66,15 +73,24 @@
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.footer-instagram i {
+  top: 1px;
+  position: relative;
+  left: 4%;
+}
 
 .footer-instagram {
   font-size: 25px;
   font-weight: 700;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .footer-instagram a:hover .footer-iconInstagram {
-  background-image: linear-gradient(to right, #0080ff, #2c6377 50%, #e4e4e4 50%);
+  background-image: linear-gradient(
+    to right,
+    #0080ff,
+    #2c6377 50%,
+    #e4e4e4 50%
+  );
   background-size: 200% 100%;
   background-position: -100%;
   -webkit-background-clip: text;
@@ -83,9 +99,12 @@
 }
 
 @media (max-width: 768px) {
-  .contact-links {
-    flex-direction: column;
-  }
+ .contact-links {
+  flex-direction: column;
+  left: 5px; /* Coloca el elemento a la izquierda */
+  position: relative;
+  text-align: left; /* Alinea el contenido a la izquierda */
+}
 
   .contact-links a {
     margin: 10px 0;

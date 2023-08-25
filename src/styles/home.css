@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url("../assets/corgi.jpg");
+  background-image: url("../assets/corgi\ \(5\).webp");
   height: 100vh;
   width: 100%;
   display: flex;
@@ -49,26 +49,25 @@
 .fa-brands {
   margin-left: 6px;
 }
-.btn-instagram a{
+.btn-instagram a {
   text-decoration: none;
   color: #fff;
 }
-.btn-instagram{
-background-color: transparent;
-color: #fff;
-padding: 8px 20px;
-border:  1px solid ;
-transition: all 0.3s ease-out;
-overflow: hidden;
-text-overflow: ellipsis;
-position: relative;
-top: 2px;
+.btn-instagram {
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid;
+  transition: all 0.3s ease-out;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: relative;
+  top: 2px;
 }
 .btn-instagram:hover {
   background-color: #13badf;
   color: #000;
 }
-
 
 @media screen and (max-width: 960px) {
   .hero-container > h1 {

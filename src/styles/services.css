@@ -1,4 +1,8 @@
-
+ul {
+  position: relative;
+  justify-content: center;
+  right: 9%;
+}
 .cards {
   padding: 4rem;
   background: rgb(182, 180, 175);
@@ -23,13 +27,13 @@ h1 {
 }
 
 .cards__items {
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
 
 .cards__item {
   display: flex;
   flex: 1;
-  margin: 0 1rem;
+  margin: 1rem;
   border-radius: 10px;
 }
 
@@ -83,7 +87,7 @@ h1 {
   max-width: 100%;
   height: 200%;
   max-height: 130%;
-  object-fit:cover;
+  object-fit: cover;
   transition: all 0.2s linear;
 }
 
