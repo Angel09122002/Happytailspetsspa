@@ -51,11 +51,15 @@ const NavBar = () => {
           <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
+
+          
           <li className="nav-item">
             <Link to="/" className="nav-links" onClick={closeMobilemenu}>
               Home
             </Link>
           </li>
+
+
           <li className="nav-item">
             <Link
               to="/about us"
