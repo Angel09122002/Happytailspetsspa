@@ -29,7 +29,7 @@
   text-overflow: ellipsis;
 }
 .btn--outline:hover {
-  background-color:#13badf;
+  background-color: #13badf;
   color: #242424;
 }
 
