@@ -30,26 +30,44 @@ function Cards() {
           <ul className="cards__items">
             <Services
               src="images/elegancia.jpg"
+              text={
+                <>
+                  <p>✔️Bath and coat conditioning</p>
+                  <p>✔️Blow-dry</p>
+                  <p>✔️Face trimming</p>
+                  <p>✔️Ears cleaning and plucking</p>
+                  <p>✔️Private area cleaning</p>
+                  <p>✔️Paws</p>
+                  <p>✔️Nails trimming</p>
+                  <p>✔️Teeth brushing</p>
+                  <p>✔️Hypoallergenic fragrance</p>
+                  <p>✔️DeShedding</p>
+                  <p>✔️Free Bow or bandana</p>
+                  <p>❌Plus Professional Hair Cut</p>
+                  <p>🐶Pricing varies based on pet's condition and breed.</p>
+                </>
+              }
+              label="Mini Dog"
+              path="/service"
+              style={{ display: "flex", flexDirection: "row-reverse" }}
+            />
+
+            <Services
+              src="images/elegancia.jpg"
               text=""
-              label=""
+              label="Small Dog"
               path="/service"
             />
             <Services
               src="images/elegancia.jpg"
               text=""
-              label=""
+              label="Medium Dog"
               path="/service"
             />
             <Services
               src="images/elegancia.jpg"
               text=""
-              label=""
-              path="/service"
-            />
-            <Services
-              src="images/elegancia.jpg"
-              text=""
-              label=""
+              label="Large Dog "
               path="/service"
             />
           </ul>
