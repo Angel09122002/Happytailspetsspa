@@ -29,7 +29,7 @@ function Cards() {
           </ul>
           <ul className="cards__items">
             <Services
-              src="images/elegancia.jpg"
+              src="images/smalldog.jpg"
               text={
                 <>
                   <p>✔️Bath and coat conditioning</p>
@@ -53,20 +53,68 @@ function Cards() {
             />
 
             <Services
-              src="images/elegancia.jpg"
-              text=""
+              src="images/smalldog.jpg"
+              text={
+                <>
+                  <p>✔️Bath and coat conditioning</p>
+                  <p>✔️Blow-dry</p>
+                  <p>✔️Face trimming</p>
+                  <p>✔️Ears cleaning and plucking</p>
+                  <p>✔️Private area cleaning</p>
+                  <p>✔️Paws</p>
+                  <p>✔️Nails trimming</p>
+                  <p>✔️Teeth brushing</p>
+                  <p>✔️Hypoallergenic fragrance</p>
+                  <p>✔️DeShedding</p>
+                  <p>✔️Free Bow or bandana</p>
+                  <p>❌Plus Professional Hair Cut</p>
+                  <p>🐶Pricing varies based on pet's condition and breed.</p>
+                </>
+              }
               label="Small Dog"
               path="/service"
             />
             <Services
-              src="images/elegancia.jpg"
-              text=""
+              src="images/medium.jpg"
+              text={
+                <>
+                  <p>✔️Bath and coat conditioning</p>
+                  <p>✔️Blow-dry</p>
+                  <p>✔️Face trimming</p>
+                  <p>✔️Ears cleaning and plucking</p>
+                  <p>✔️Private area cleaning</p>
+                  <p>✔️Paws</p>
+                  <p>✔️Nails trimming</p>
+                  <p>✔️Teeth brushing</p>
+                  <p>✔️Hypoallergenic fragrance</p>
+                  <p>✔️DeShedding</p>
+                  <p>✔️Free Bow or bandana</p>
+                  <p>❌Plus Professional Hair Cut</p>
+                  <p>🐶Pricing varies based on pet's condition and breed.</p>
+                </>
+              }
               label="Medium Dog"
               path="/service"
             />
             <Services
               src="images/elegancia.jpg"
-              text=""
+              text={
+                <>
+                  <p>✔️Bath and coat conditioning</p>
+                  <p>✔️Blow-dry</p>
+                  <p>✔️Face trimming</p>
+                  <p>✔️Ears cleaning and plucking</p>
+                  <p>✔️Private area cleaning</p>
+                  <p>✔️Paws</p>
+                  <p>✔️Nails trimming</p>
+                  <p>✔️Teeth brushing</p>
+                  <p>✔️Hypoallergenic fragrance</p>
+                  <p>✔️DeShedding</p>
+                  <p>✔️Free Bow or bandana</p>
+                  <p>❌Plus Professional Hair Cut</p>
+                  <p>🐶Pricing varies based on pet's condition and breed.</p>
+                </>
+              }
               label="Large Dog "
               path="/service"
             />
