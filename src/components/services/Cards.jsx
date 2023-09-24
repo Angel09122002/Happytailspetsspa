@@ -1,5 +1,5 @@
-import React from 'react'
-import Services from './Services'
+import React from "react";
+import Services from "./Services";
 
 function Cards() {
   return (
@@ -29,21 +29,46 @@ function Cards() {
           </ul>
           <ul className="cards__items">
             <Services
-              src="images/smalldog.jpg"
+              src="images/mini.jpg"
               text={
                 <>
-                  <p>✔️Bath and coat conditioning</p>
-                  <p>✔️Blow-dry</p>
-                  <p>✔️Face trimming</p>
-                  <p>✔️Ears cleaning and plucking</p>
-                  <p>✔️Private area cleaning</p>
-                  <p>✔️Paws</p>
-                  <p>✔️Nails trimming</p>
-                  <p>✔️Teeth brushing</p>
-                  <p>✔️Hypoallergenic fragrance</p>
-                  <p>✔️DeShedding</p>
-                  <p>✔️Free Bow or bandana</p>
-                  <p>❌Plus Professional Hair Cut</p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Bath and coat conditioning
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Blow-dry
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Face trimming
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Ears cleaning and plucking
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Private area cleaning
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Paws
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Nails trimming
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Teeth brushing
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Hypoallergenic fragrance
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>DeShedding
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Free Bow or bandana
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-x"></i>Plus Professional Haircut if
+                    needed
+                  </p>
                   <p>🐶Pricing varies based on pet's condition and breed.</p>
                 </>
               }
@@ -56,18 +81,43 @@ function Cards() {
               src="images/smalldog.jpg"
               text={
                 <>
-                  <p>✔️Bath and coat conditioning</p>
-                  <p>✔️Blow-dry</p>
-                  <p>✔️Face trimming</p>
-                  <p>✔️Ears cleaning and plucking</p>
-                  <p>✔️Private area cleaning</p>
-                  <p>✔️Paws</p>
-                  <p>✔️Nails trimming</p>
-                  <p>✔️Teeth brushing</p>
-                  <p>✔️Hypoallergenic fragrance</p>
-                  <p>✔️DeShedding</p>
-                  <p>✔️Free Bow or bandana</p>
-                  <p>❌Plus Professional Hair Cut</p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Bath and coat conditioning
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Blow-dry
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Face trimming
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Ears cleaning and plucking
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Private area cleaning
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Paws
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Nails trimming
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Teeth brushing
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Hypoallergenic fragrance
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>DeShedding
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Free Bow or bandana
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-x"></i>Plus Professional Haircut if
+                    needed
+                  </p>
                   <p>🐶Pricing varies based on pet's condition and breed.</p>
                 </>
               }
@@ -78,18 +128,43 @@ function Cards() {
               src="images/medium.jpg"
               text={
                 <>
-                  <p>✔️Bath and coat conditioning</p>
-                  <p>✔️Blow-dry</p>
-                  <p>✔️Face trimming</p>
-                  <p>✔️Ears cleaning and plucking</p>
-                  <p>✔️Private area cleaning</p>
-                  <p>✔️Paws</p>
-                  <p>✔️Nails trimming</p>
-                  <p>✔️Teeth brushing</p>
-                  <p>✔️Hypoallergenic fragrance</p>
-                  <p>✔️DeShedding</p>
-                  <p>✔️Free Bow or bandana</p>
-                  <p>❌Plus Professional Hair Cut</p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Bath and coat conditioning
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Blow-dry
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Face trimming
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Ears cleaning and plucking
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Private area cleaning
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Paws
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Nails trimming
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Teeth brushing
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Hypoallergenic fragrance
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>DeShedding
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Free Bow or bandana
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-x"></i>Plus Professional Haircut if
+                    needed
+                  </p>
                   <p>🐶Pricing varies based on pet's condition and breed.</p>
                 </>
               }
@@ -100,18 +175,43 @@ function Cards() {
               src="images/elegancia.jpg"
               text={
                 <>
-                  <p>✔️Bath and coat conditioning</p>
-                  <p>✔️Blow-dry</p>
-                  <p>✔️Face trimming</p>
-                  <p>✔️Ears cleaning and plucking</p>
-                  <p>✔️Private area cleaning</p>
-                  <p>✔️Paws</p>
-                  <p>✔️Nails trimming</p>
-                  <p>✔️Teeth brushing</p>
-                  <p>✔️Hypoallergenic fragrance</p>
-                  <p>✔️DeShedding</p>
-                  <p>✔️Free Bow or bandana</p>
-                  <p>❌Plus Professional Hair Cut</p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Bath and coat conditioning
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Blow-dry
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Face trimming
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Ears cleaning and plucking
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Private area cleaning
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Paws
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Nails trimming
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Teeth brushing
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Hypoallergenic fragrance
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>DeShedding
+                  </p>
+                  <p>
+                    <i class="fa-solid fa-check"></i>Free Bow or bandana
+                  </p>
+                  <p>
+                    <i class="fa-regular fa-x"></i>Plus Professional Haircut if
+                    needed
+                  </p>
                   <p>🐶Pricing varies based on pet's condition and breed.</p>
                 </>
               }
@@ -121,8 +221,13 @@ function Cards() {
           </ul>
         </div>
       </div>
+      <div className="haircut-button">
+        <h3 className="haircut-price">
+          <a>Contact us for prices</a>
+        </h3>
+      </div>
     </div>
   );
 }
 
-export default Cards
+export default Cards;

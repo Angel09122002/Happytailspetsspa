@@ -29,8 +29,10 @@
   text-overflow: ellipsis;
 }
 .btn--outline:hover {
-  background-color: #13badf;
-  color: #242424;
+  transition: all 0.3s ease-out;
+  background: #000000;
+  color: #ffffff;
+  transition: 250ms;
 }
 
 .btn--medium {
@@ -46,7 +48,7 @@
 .btn--large:hover,
 .btn--medium:hover {
   transition: all 0.3s ease-out;
-  background: #13badf;
-  color: #242424;
+  background: #000000;
+  color: #ffffff;
   transition: 250ms;
 }
