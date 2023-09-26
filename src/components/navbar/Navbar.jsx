@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "../../styles/navbar.css";
 import logonavbar from "../../assets/logonavbar.png";
 import "../../styles/button.css";
+import { animateScroll as scroll } from "react-scroll";
 import { Link } from "react-scroll";
 import { Button } from "../button/Button";
 
@@ -16,6 +17,10 @@ const NavBar = () => {
   const closeMobilemenu = () => {
     setClick(false);
   };
+    const scrollToTop = () => {
+      scroll.scrollToTop(); // Esta función desplazará suavemente hacia arriba
+      closeMobilemenu(); // Cierra el menú móvil después del clic
+    };
 
   const showButton = () => {
     if (window.innerWidth <= 960) {

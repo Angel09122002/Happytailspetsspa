@@ -10,7 +10,7 @@ function App() {
   return (
     <React.Fragment>
           <Navbar />
-          <Home/> 
+          <Home/>
           <About/>
           <Cards/>
           <Contact/>
