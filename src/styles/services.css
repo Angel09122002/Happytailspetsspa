@@ -108,6 +108,7 @@ h1 {
   align-items: center;
   right: 25px;
   margin: -25px 0 0 -25px;
+ 
 }
 .haircut-price {
   position: absolute;
@@ -116,17 +117,22 @@ h1 {
   left: 47%;
   margin: -25px 0 0 -25px;
   background-color: transparent;
-  color: #ffffff;
-  padding: 8px 20px;
-  border: 1px solid var(--primary);
   transition: all 0.3s ease-out;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+   border-radius: 30px;
 }
 .haircut-price:hover {
   transition: all 0.3s ease-out;
-  background: #000000;
+  background-image: linear-gradient(
+    to right,
+    #0080ff,
+    #2c6377 50%,
+    #040404 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
   color: #ffffff;
   transition: 250ms;
 }

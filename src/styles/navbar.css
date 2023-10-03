@@ -61,6 +61,7 @@
   justify-content: right;
   width: 100%;
   gap: 1%;
+  list-style: none;
 }
 
 .nav-item {
@@ -81,6 +82,7 @@
   height: 95%;
   position: relative;
   right: 60px;
+  text-decoration: none;
 }
 
 .nav-links:hover {
@@ -170,6 +172,7 @@
     align-items: center;
     position: relative;
     right: 40px;
+    list-style-type: none;
   }
 
   .nav-links {
@@ -201,7 +204,7 @@
 
     transform: translate(25%, 50%);
   }
-  .navbar-logo P {
+  .navbar-logo p {
     display: none;
   }
 

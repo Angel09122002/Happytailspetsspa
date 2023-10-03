@@ -3,7 +3,7 @@ import Services from "./Services";
 
 function Cards() {
   return (
-    <div className="cards">
+    <div className="cards" id="Cards">
       <h1>Check out these HAPPY tails!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
@@ -223,7 +223,7 @@ function Cards() {
       </div>
       <div className="haircut-button">
         <h3 className="haircut-price">
-          <a>Contact us for prices</a>
+          <p>Contact us for prices</p>
         </h3>
       </div>
     </div>

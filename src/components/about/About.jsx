@@ -39,7 +39,6 @@ const About = () => {
                 celebrates their unique beauty and vitality.
               </p>
             </div>
-           
           </div>
         </section>
       </div>
