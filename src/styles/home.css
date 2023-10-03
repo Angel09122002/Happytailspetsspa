@@ -73,6 +73,36 @@
   position: relative;
   top: 2px;
 }
+.btn-phone{
+   background-color: transparent;
+  color: #ffffff;
+  padding: 8px 20px;
+  border: 1px solid var(--primary);
+  transition: all 0.3s ease-out;
+  position: relative;
+  right: 55px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.btn-phone:hover{
+  transition: all 0.3s ease-out;
+  background: #000000;
+  color: #ffffff;
+  transition: 250ms;
+  transition: all 0.3s ease-out;
+  background-image: linear-gradient(
+    to right,
+    #0080ff,
+    #2c6377 50%,
+    #040404 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  color: #ffffff;
+  transition: 250ms;
+}
+
 .btn-instagram:hover {
    transition: all 0.3s ease-out;
   background: #000000;

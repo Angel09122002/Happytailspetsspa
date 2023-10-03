@@ -5,20 +5,19 @@ import { Button } from "../button/Button";
 const Home = () => {
   return (
     <div className="hero-container" id="hero">
-      <h1>Enhance your furry companion's apperance </h1>
+      <h1>Enhance your furry companion's appearance</h1>
       <p className="sub-title">with comfort and care!</p>
       <div className="hero-btns">
-        <Button
-          className="btns"
-          buttonStyle="btn--outline"
-          buttonSize="btn--large"
-        >
-          Contact Your Groomer
-        </Button>
+        <a href="tel:(954)296-7896">
+          <button className="btn-phone">Contact your Groomer</button>
+        </a>
+
+       
         <button className="btn-instagram">
           <a
             href="https://www.instagram.com/happytailspetsspa/"
-            target="blanck"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Check our magic
           </a>

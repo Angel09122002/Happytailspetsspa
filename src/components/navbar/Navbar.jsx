@@ -24,11 +24,6 @@ const NavBar = () => {
         />
         <div className="navbar-container">
           <div
-            to="/"
-            spy={true}
-            smooth={50}
-            offset={50}
-            duration={500}
             className="navbar-logo"
             onClick={closeMobilemenu}
           >
