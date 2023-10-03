@@ -80,14 +80,30 @@ h3 {
 @media (max-width: 450px) {
   .section-wrapper {
     font-size: 15px;
+    position: relative;
+    top: -89px;
+  }
+  .section-wrapper-subtitle{
+    position: relative;
+    top: -65px;
+  }
+  .about-wrap{
+    position: relative;
+    top: -25px;
   }
   .brickOne-text,
   .brickTwo-text {
     flex-basis: auto;
     width: 100%;
+    position: relative;
+    margin-top: -55px;
     text-align: left;
     margin-bottom: 8px;
-    font-size: 12px;
+    font-size: 14px;
     word-spacing: normal;
+  }
+  .brickTwo-text{
+    position: relative;
+    top: 20px;
   }
 }
