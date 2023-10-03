@@ -1,6 +1,7 @@
 .main-content {
   padding: 40px;
   background-color: antiquewhite;
+ height: 100vh;
 }
 
 .section-title {
@@ -9,7 +10,8 @@
   max-width: 800px;
   margin: 0 auto;
   color: rgb(0, 0, 0);
-  
+position: relative;
+top: 70px;
 }
 
 .section-wrapper {
@@ -20,14 +22,14 @@
 .section-wrapper-subtitle {
   margin-bottom: 40px;
   font-size: 24px;
-  
+
 }
 
 .about-wrap {
-  
+
   display: flex;
   flex-direction: column;
-  
+
 }
 
 .brickOne-text,
@@ -46,6 +48,7 @@ padding: 20px
  
   position: relative;
   top: 45px;
+  right: 20px;
 }
 
 @media (max-width: 768px) {
@@ -53,6 +56,10 @@ padding: 20px
     flex-direction: row;
     align-items: center;
     gap: 20px;
+  }
+  .section-wrapper{
+    position: relative;
+    top: -50px;
   }
 
   .brickOne-text,
@@ -63,4 +70,12 @@ padding: 20px
     margin-bottom: 20px;
      word-spacing: -2px;
   }
+    .brickOne-text{
+      position: relative;
+     top: -60px;
+    }
+    .brickTwo-text{
+      position: relative;
+     top: 1px;
+    }
 }

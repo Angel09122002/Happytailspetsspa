@@ -33,7 +33,7 @@
   background: #000000;
   color: #ffffff;
   transition: 250ms;
-   transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
   background-image: linear-gradient(
     to right,
     #0080ff,

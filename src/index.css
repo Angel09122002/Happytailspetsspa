@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth;
+  
 }
 
 body {
@@ -17,9 +18,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #23283e;
+  background-color: #434240;
   color: #cdcdff;
 }
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 10px;
 }

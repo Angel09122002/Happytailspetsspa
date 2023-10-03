@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="hero-container" id="hero">
       <h1>Enhance your furry companion's apperance </h1>
-      <p>with comfort and care!</p>
+      <p className="sub-title">with comfort and care!</p>
       <div className="hero-btns">
         <Button
           className="btns"

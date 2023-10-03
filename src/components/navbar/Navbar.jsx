@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import "../../styles/navbar.css";
 import logonavbar from "../../assets/logonavbar.png";
 import "../../styles/button.css";
@@ -45,15 +44,7 @@ const NavBar = () => {
       <div className={click ? "nav-menu active" : "nav-menu"}>
         <ul className="nav-ul">
           <li className="nav-item">
-            <a
-              href="#hero"
-              spy={true}
-              smooth={50}
-              offset={50}
-              duration={500}
-              className="nav-links"
-              onClick={closeMobilemenu}
-            >
+            <a href="#hero" className="nav-links" onClick={closeMobilemenu}>
               Home
             </a>
           </li>
@@ -61,10 +52,6 @@ const NavBar = () => {
           <li className="nav-item">
             <a
               href="#MainContent"
-              spy={true}
-              smooth={50}
-              offset={50}
-              duration={500}
               className="nav-links"
               onClick={closeMobilemenu}
             >
@@ -73,31 +60,15 @@ const NavBar = () => {
           </li>
 
           <li className="nav-item">
-            <a
-              href="#services"
-              spy={true}
-              smooth={50}
-              offset={50}
-              duration={500}
-              className="nav-links"
-              onClick={closeMobilemenu}
-            >
+            <a href="#Cards" className="nav-links" onClick={closeMobilemenu}>
               Services
             </a>
           </li>
 
           <li className="nav-item">
-            <div
-              to="/contact"
-              spy={true}
-              smooth={50}
-              offset={50}
-              duration={500}
-              className="nav-links"
-              onClick={closeMobilemenu}
-            >
+            <a href="#footer" className="nav-links" onClick={closeMobilemenu}>
               Contact us
-            </div>
+            </a>
           </li>
         </ul>
       </div>

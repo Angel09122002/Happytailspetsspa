@@ -67,6 +67,7 @@
 .nav-item {
   height: 70px;
   cursor: pointer;
+  scroll-margin-top: 100ex;
 }
 
 .noMobileContactUs {

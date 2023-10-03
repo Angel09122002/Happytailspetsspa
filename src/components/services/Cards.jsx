@@ -118,7 +118,7 @@ function Cards() {
                     <i class="fa-regular fa-x"></i>Plus Professional Haircut if
                     needed
                   </p>
-                  <p>🐶Pricing varies based on pet's condition and breed.</p>
+                  <span>🐶Pricing varies based on pet's condition and breed.</span>
                 </>
               }
               label="Small Dog"
@@ -130,7 +130,7 @@ function Cards() {
                 <>
                   <p>
                     <i class="fa-solid fa-check"></i>Bath and coat conditioning
-                  </p>
+                  </p>````
                   <p>
                     <i class="fa-solid fa-check"></i>Blow-dry
                   </p>
@@ -220,11 +220,6 @@ function Cards() {
             />
           </ul>
         </div>
-      </div>
-      <div className="haircut-button">
-        <h3 className="haircut-price">
-          <p>Contact us for prices</p>
-        </h3>
       </div>
     </div>
   );

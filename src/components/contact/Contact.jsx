@@ -3,7 +3,7 @@ import "../../styles/contact.css";
 
 const Contact = () => {
   return (
-    <div className="footer-container">
+    <div className="footer-container" id="footer">
       <div className="footer-contact-items">
         <h1 className="contact-title">Contact your groomer</h1>
         <div className="contact-links">

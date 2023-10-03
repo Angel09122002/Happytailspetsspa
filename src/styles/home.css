@@ -1,6 +1,13 @@
 * {
   margin: 0%;
 }
+.hero-container h1{
+  position: relative;
+  top: -40px;
+}
+.sub-title{
+  position: relative;
+}
 
 .hero-container {
   background-repeat: no-repeat;
