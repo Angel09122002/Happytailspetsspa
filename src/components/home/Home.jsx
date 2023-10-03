@@ -12,7 +12,6 @@ const Home = () => {
           <button className="btn-phone">Contact your Groomer</button>
         </a>
 
-       
         <button className="btn-instagram">
           <a
             href="https://www.instagram.com/happytailspetsspa/"

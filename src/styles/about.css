@@ -66,6 +66,7 @@ h3 {
     text-align: left;
     margin-bottom: 20px;
     word-spacing: -2px;
+    font-size: 25px;
   }
   .brickOne-text {
     position: relative;
@@ -77,15 +78,16 @@ h3 {
   }
 }
 @media (max-width: 450px) {
+  .section-wrapper {
+    font-size: 15px;
+  }
   .brickOne-text,
-.brickTwo-text {
-  flex-basis: auto;
-  width: 100%; 
-  text-align: left;
-  margin-bottom: 10px; 
-  font-size: 14px;
-  word-spacing: -2px;
+  .brickTwo-text {
+    flex-basis: auto;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 12px;
+    word-spacing: normal;
+  }
 }
-
-}
-
